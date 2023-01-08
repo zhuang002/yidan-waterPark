@@ -1,6 +1,6 @@
 class Node:
     id: int
-    parent: Node
+    parents: list[Node]
     children: list[Node]
 
     def __init__(self, id: int):
